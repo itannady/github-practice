@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@600&family=Raleway:wght@600&display=swap");
+
+* {
+  font-family: Merriweather;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f9f4ef;
+  background: linear-gradient(
+      rgba(158, 157, 157, 0.5),
+      rgba(255, 255, 255, 0.603)
+    ),
+    url("https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68");
+}
+
+.headerClass {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.headerClass a {
+  text-decoration: none;
+}
+
+.headerClass p {
+  font-weight: 1000;
+  color: #020826;
+  font-size: 200%;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px 3px #8c7851;
+  font-family: Montserrat;
+  font-size: 72px;
+}
+
+.navClass {
+  display: flex;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.navBorder {
+  border: 2px solid #020826;
+  box-shadow: #f25042 2px 0px 15px;
+  border-radius: 20px;
+  width: 50%;
+  background-color: #eaddcf;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul li {
+  margin: 10px;
+}
+
+.navClass a:link {
+  text-decoration: none;
+  font-family: Montserrat;
+  color: #020826;
+}
+
+.navClass a:hover {
+  text-decoration: underline;
+}
+
+.divColumnLeft {
+  float: left;
+  width: 55vw;
+  margin-left: 5vw;
+  margin-bottom: 5vw;
+  padding: 5px;
+  background-color: #eaddcf;
+  border-radius: 20px;
+}
+
+.firstLeftBox {
+  padding: 5px;
+}
+
+.articleClass {
+  padding: 5px;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+.leftimage {
+  width: 100%;
+  display: flex;
+  border-radius: 20px;
+}
+
+.divColumnRight {
+  float: right;
+  width: 30vw;
+  margin-right: 5vw;
+  padding: 5px;
+}
+
+.asideClass {
+  background-color: #eaddcf;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.asideClass img {
+  width: 100%;
+  padding-bottom: 3%;
+  border-radius: 20px;
+}
+
+.footerClass {
+  clear: left;
+  background-color: #8c7851;
+}
+
+.footerClass p {
+  font-family: montserrat;
+  font-size: 24px;
+  text-align: center;
+  color: #fffffe;
+}
